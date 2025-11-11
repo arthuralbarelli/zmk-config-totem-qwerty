@@ -214,9 +214,9 @@
         QWERTY {
             label = "BASE";
             bindings = <
-                 &kp Q  &kp W        &kp E           &kp R             &kp T        &kp Y      &kp U              &kp I            &kp O                &kp P
-                 &kp A  &hm LCTRL S  &hm LEFT_ALT D  &hm LEFT_SHIFT F  &kp G        &kp H      &hm RIGHT_SHIFT J  &hm RIGHT_ALT K  &hm RCTRL L          &mt SEMICOLON COLON
-&mt CARET TILDE  &kp Z  &kp X        &kp C           &hm LCMD V        &kp B        &kp N      &hm RCMD M         &kp COMMA        &mt DOT EXCLAMATION  &comment_or 0 SLASH  &kp UNDERSCORE
+                 &kp Q  &kp W        &kp E           &kp R             &kp T        &kp Y      &kp U              &kp I            &kp O         &kp P
+                 &kp A  &hm LCTRL S  &hm LEFT_ALT D  &hm LEFT_SHIFT F  &kp G        &kp H      &hm RIGHT_SHIFT J  &hm RIGHT_ALT K  &hm RCTRL L   &mt SEMICOLON COLON
+&mt CARET TILDE  &kp Z  &kp X        &kp C           &hm LCMD V        &kp B        &kp N      &hm RCMD M         &kp COMMA        &mt EXCL DOT  &comment_or 0 SLASH  &kp UNDERSCORE
                                      &lt 3 ESC       &kp TAB           &kp SPACE    &kp ENTER  &super_backspace   &to 1
             >;
         };
@@ -224,10 +224,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-        &caps_word    &kp AT_SIGN  &kp HASH              &kp DOLLAR            &kp PERCENT    &kp RA(LEFT_ARROW)  &none           &none         &kp RA(RIGHT)  &none
-        &kp CAPSLOCK  &none        &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &trans         &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &none
-&trans  &trans        &trans       &trans                &trans                &trans         &kp HOME            &kp END         &kp PG_UP     &kp PAGE_DOWN  &none  &to 3
-                                   &to 0                 &trans                &trans         &trans              &kp DELETE      &to 2
+        &caps_word    &kp AT_SIGN  &kp HASH              &kp DOLLAR            &kp PERCENT              &kp RA(LEFT_ARROW)  &none           &none         &kp RA(RIGHT)  &none
+        &kp CAPSLOCK  &none        &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &mt DOUBLE_QUOTES SQT    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &none
+&trans  &trans        &trans       &trans                &trans                &trans                   &kp HOME            &kp END         &kp PG_UP     &kp PAGE_DOWN  &none  &to 3
+                                   &to 0                 &trans                &trans                   &trans              &kp DELETE      &to 2
             >;
         };
 
