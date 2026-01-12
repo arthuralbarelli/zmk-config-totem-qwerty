@@ -224,10 +224,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-        &caps_word    &kp AT_SIGN  &kp HASH              &kp DOLLAR            &kp PERCENT              &kp RA(LEFT_ARROW)  &none           &none         &kp RA(RIGHT)  &none
-        &kp CAPSLOCK  &none        &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &mt DOUBLE_QUOTES SQT    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &none
-&trans  &trans        &trans       &trans                &trans                &trans                   &kp HOME            &kp END         &kp PG_UP     &kp PAGE_DOWN  &none  &to 3
-                                   &to 0                 &trans                &trans                   &trans              &trans          &to 2
+        &caps_word    &kp AT_SIGN  &kp HASH                  &kp DOLLAR                &kp PERCENT              &kp RA(LEFT_ARROW)  &none           &none         &kp RA(RIGHT)  &none
+        &kp CAPSLOCK  &none        &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &mt DOUBLE_QUOTES SQT    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &none
+&trans  &trans        &trans       &trans                    &trans                    &trans                   &kp HOME            &kp END         &kp PG_UP     &kp PAGE_DOWN  &none  &to 3
+                                   &to 0                     &trans                    &trans                   &trans              &trans          &to 2
             >;
         };
 
@@ -247,7 +247,7 @@
             &kp F1  &kp F2  &kp F3        &kp F4      &kp F5        &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
             &trans  &trans  &trans        &trans      &trans        &kp C_MUTE    &kp C_PP      &trans      &trans      &trans
 &bt BT_CLR  &trans  &trans  &out OUT_TOG  &bt BT_PRV  &bt BT_NXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &trans   &trans
-                            &to 0         &trans      &trans        &trans        &trans        &trans
+                            &trans        &trans      &trans        &trans        &trans        &trans
             >;
         };
     };
