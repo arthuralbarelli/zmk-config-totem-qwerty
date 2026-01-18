@@ -224,10 +224,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-        &caps_word    &kp AT_SIGN  &kp HASH                  &kp DOLLAR                &kp PERCENT              &kp RA(LEFT_ARROW)  &none           &none         &kp RA(RIGHT)  &none
-        &kp CAPSLOCK  &none        &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &mt DOUBLE_QUOTES SQT    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &none
-&trans  &trans        &trans       &trans                    &trans                    &trans                   &kp HOME            &kp END         &kp PG_UP     &kp PAGE_DOWN  &none  &to 3
-                                   &to 0                     &trans                    &trans                   &trans              &trans          &to 2
+            &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none         &none         &none           &none           &kp C_PLAY_PAUSE  &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+            &kp EXCLAMATION       &kp AT_SIGN           &kp HASH      &kp DOLLAR    &kp PERCENT     &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT          &none
+&caps_word  &trans                &trans                &trans        &trans        &trans          &kp HOME        &kp END           &kp PG_UP     &kp PAGE_DOWN      &none            &to 3
+                                                        &kp LC(LCMD)  &kp LA(LCMD)  &kp LEFT_ALT    &trans          &trans            &trans
             >;
         };
 
